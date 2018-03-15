@@ -1,0 +1,218 @@
+@charset "UTF-8";
+@font-face{
+    font-family: 'FonteLogo';
+    src: url("../_fonts/bubblegum-sans-regular.otf");
+}
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+p{
+    text-align: justify;
+    text-indent: 50px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+/*
+a:link{ links nao visitados}
+a:visited { links visitados}
+a:hover { cursor sobre o link}
+a:active { quando clicado}
+*/
+figure.imgicone{
+    position: relative;
+    left: 640px;
+    top: -85px;
+    z-index: 1;
+}
+header#cabecalho{
+   border-bottom: 1px rgb(134, 104, 104) solid; 
+   height: 180px;
+   background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0 110px;
+}
+header#cabecalho h1{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 25pt;
+    color: black;
+    text-shadow: .5px .5px .5px black;
+    padding: 5px;
+    margin-bottom: 0px;
+    margin-top: 32px;
+}
+header#cabecalho h2{
+    color: #888888;
+    font-size: 20pt;
+    padding: 0px;
+    margin-top: 0px;
+}
+body{
+    background-color: #bf1515;
+    color: rgba(0, 0, 0, 1);
+    overflow-x: hidden;
+}
+div#interface{
+    width: 950px;
+    background-color: white;
+    border-radius: 5px;
+    margin: -20px auto auto auto;
+    box-shadow: 0px 0px 10px gray;
+    padding: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 98%;
+}
+
+figure.foto-legenda{
+    position: relative;
+    border: 6px solid white;
+    box-shadow: 1px 1px 4px black;
+    z-index: 3;
+}
+figure.foto-legenda img{
+    width: 100%;
+    z-index:2;
+}
+figure.foto-legenda figcaption{
+    font-size: 30px;
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0,0,0,.4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 2s;
+    z-index: 4;
+}
+figure.foto-legenda:hover figcaption{
+    opacity: .3;
+}
+/* Formatação do menu */
+nav#menu{
+    display:block;
+}
+nav#menu ul{
+   list-style: none;
+   text-transform: uppercase; 
+   top: -20px;
+   left: 450px;
+   position: fixed;
+   z-index:5;
+}
+nav#menu li{
+    display: inline-block;
+    cursor:pointer;
+    background-color: #474747b4;
+    margin: 2px;
+    transition: background-color 1s;
+    border-radius: 5px;
+}
+nav#menu li:focus, nav#menu li:hover, nav#menu li:active {
+    background-color: #606060;
+}
+nav#menu h1{
+    display: none;
+}
+nav#menu a{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+}
+nav#menu a:focus, nav#menu a:hover, nav#menu a:active{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    transition: color 1s;
+}
+/*Partes do site*/
+section#corpo {
+    display:block;
+    width: 500px;
+    float: left;
+    padding-right: 15px;
+}
+article#noticia-principal h2{
+    font-size: 13pt;
+    background-color: #dddddd;
+    padding: 5px 0 5px 5px;
+    margin: 10px 0px 10px 0px;
+}
+article#noticia-principal h3.direita{
+    text-align: right;
+    font-size: 10pt;
+}
+table#tabelaspec{
+    border: .5px solid black;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table#tabelaspec td{
+    border: .5px solid black;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+table#tabelaspec td.ce{
+    color : black;
+    background-color: white;
+    font-weight: bold;
+}
+table#tabelaspec td.cd{
+    color: black;
+    background-color: #dddddd;
+} 
+table#tabelaspec caption{
+    color: black;
+    font-size: 12pt;
+    font-weight: bold;
+}
+table#tabelaspec caption span{
+    display: block;
+    float: right;
+    font-size: 10pt;
+}
+aside#lateral {
+    display:block;
+    width: 400px;
+    float: right;
+    margin-left: -20px;
+    background-color: #dddddd;
+    padding: 0px 5px 5px 5px;
+    margin-top: 10px;
+    margin-right: 0px;
+    box-shadow: 1px 1px 1px black;
+    border-radius: 1px;
+}
+aside#lateral h1{
+    margin-top: 2px;
+}
+aside#lateral h2{
+    background-color: #bf1515;
+    color: white;
+    font-size: 13pt;
+    padding: 5px 0 5px 5px;
+    margin: 10px 0px 10px 0px;
+}
+footer#rodape {
+    clear: both;
+    box-shadow: 0px 0px .15em black;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.445);
+    margin-bottom: -25px;
+}
+footer#rodape p{
+    font-size: 15pt;
+    text-align: center;
+}
+img{
+    vertical-align: bottom;
+}
+
+/*
+*/

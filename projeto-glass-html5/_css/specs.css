@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+section#conteudo-full{
+    margin: auto;
+}
+iframe#frame-spec{
+    width: 400px;
+    height: 300px;
+    border: none;
+}
+map area{
+    outline: none;
+}
