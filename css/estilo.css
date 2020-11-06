@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @font-face{
     font-family: 'FonteLogo';
-    src: url("../_fonts/bubblegum-sans-regular.otf");
+    src: url("../fonts/bubblegum-sans-regular.otf");
 }
 @import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
@@ -32,7 +32,7 @@ figure.imgicone{
 header#cabecalho{
    border-bottom: 1px rgb(134, 104, 104) solid; 
    height: 180px;
-   background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0 110px;
+   background: url("../imagens/glass-logo-peq.jpg") no-repeat 0 110px;
 }
 header#cabecalho h1{
     font-family: 'Press Start 2P', cursive;
