@@ -8,7 +8,7 @@ Textos de autoria de Gustavo Guanabara e imagens de domínio público do Google.
 
 ### Disponível 
 
-Acesse: **https://luucasrb.github.io/siteGLASS.github.io/**
+Acesse: **https://luucasrb.github.io/SiteGLASS.github.io/**
 
 --- 
 follow me on linkedin: @luucasrb
